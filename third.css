@@ -50,12 +50,26 @@ section {
     padding-left: 0;
     margin: 8px 4px;
   }
+  .red a {
+    background-color:rgb(192, 18, 18);
+    color: white;
+}
+.red a:hover {
+    color:rgb(255, 57, 57);
+}
   .green-box a {
-      background-color:rgb(115, 230, 0);
+      background-color:rgb(79, 158, 0);
+      color: white
   }
   .green-box a:hover {
       color:chartreuse;
   }
+  .blue-box a {
+    background-color: rgb(62, 91, 146);
+    color: white;
+}
+.blue-box a:hover {
+    color:rgb(105, 164, 219);}
   .green a {
     color:rgb(115, 230, 0);
   }
