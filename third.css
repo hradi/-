@@ -6,9 +6,11 @@ body {
     font-size: 14px;;
   }
   header {
-    margin: 5%;
+    margin: 0;
+    padding: 5%;
     margin-bottom: 2%;
     padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.377);
   }
   section {
     padding: 5%;
@@ -21,6 +23,7 @@ body {
 section {
     border-bottom: solid;
     border-bottom-width: 1px;
+    background-color: rgba(0, 0, 0, 0.329);
 }
 .nav a {
     color: black;
@@ -35,7 +38,7 @@ section {
       text-decoration: none;}
 
   .nav a:hover {
-    background-color: #2e2e2e;
+    background-color: rgba(0, 0, 0, 0);
     color: white;
   }
   .nav {
@@ -44,7 +47,7 @@ section {
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-    width: auto;  
+    width: auto;
   }
   .nav div {
     padding-left: 0;
@@ -71,10 +74,10 @@ section {
 .blue-box a:hover {
     color:rgb(105, 164, 219);}
   .green a {
-    color:rgb(115, 230, 0);
+    color:rgb(99, 199, 0);
   }
   .green a:hover {
-      color:chartreuse;
+      color:rgb(150, 255, 44);
   }
   .poem {
     color: red;
@@ -88,9 +91,14 @@ section {
           text-align: left;
       }
       .hlavicka {
-          margin-top: 0;
+          margin: 5% 5% 0 5%;
       }
       .texty {
-          margin-right: 20%;
+          margin: 0;
+          display:grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: repeat(2, 300px);
+          gap: 5%;
       }
+      .mila
   }
