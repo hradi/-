@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  color: aliceblue;
+  background-color: rgb(46, 46, 46);
+  font-family: "Barlow";
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Pangolin";
+}
+h1 {
+  font-size: 68px;
+  line-height: 1;
+  text-align: justify;
+}
+a {
+  font-family: "Barlow";
+  text-align: left;
+  color:royalblue;
+  text-decoration: none;
+}
+a:hover {
+    background-color: royalblue;
+    color: rgb(46, 46, 46);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+section {
+  padding: 5%;
+}
+.poem {
+  color: red;
+  text-align: center;
+  font-family: "Dancing script";
+}
+.uvod {
+  font-family: "Pangolin";
+  background-color: rgb(50, 68, 102);
+  margin: -5%;
+  padding: 5%;
+}
+.uvod p {
+    background-color: rgba(0, 255, 13, 0.158);
+    border-radius: 5px;
+    padding: 5px;
+}

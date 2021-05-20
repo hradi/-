@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Barlow;
+}
+.hlavicka {
+  background-image: url(pics/rosa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20% 10%;
+}
+h1 {
+  font-family: Dancing script;
+  font-size: 44px;
+  color: white;
+  background-color: rgba(0, 95, 139, 0.349);
+  border-radius: 0px;
+  padding: 10% 10%;
+  margin: 0 -10%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1px 0;
+}
+.nav div {
+    background-color: rgb(58, 138, 158);
+    margin: 1px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.nav a {
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0;
+    width: 200px;
+}
+.nav a:hover {
+    color:black;
+    background-color: white;
+}
+section {
+    padding: 5%;
+}
